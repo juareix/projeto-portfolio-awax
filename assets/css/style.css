@@ -30,7 +30,7 @@ header{
 .logoimg{
     width: 80px;
     height: 80px;
-    background-color: #b28756;
+
 }
 
 .menu{
@@ -91,6 +91,7 @@ header{
     height: 100%;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     color: #ffffff;
 }
 
@@ -102,4 +103,50 @@ header{
 
 .banner h1 span{
     color: #b28756;
+}
+
+.banner h2{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.banner a{
+    display: block;
+     background-color: #b28756;
+     color: #ffffff;
+     text-transform: uppercase;
+     font-size: 10px;
+     font-weight: 600;
+     text-decoration: none;
+     padding: 10px 30px;
+     margin-top: 30px;
+     border-radius: 20px;
+}
+
+.banner .sliders-pointers{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.banner .pointer:hover{
+    background-color: #b28756;
+}
+
+.banner .pointer.active{
+    background-color: #b28756;
 }
