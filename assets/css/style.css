@@ -473,22 +473,22 @@ header{
 
 /*section relatos*/
 
-.testimonials .section-body {
+.clients .section-body {
     max-width:initial;
 }
-.section-testimonials {
+.section-clients {
     overflow:hidden;
 }
-.section-testimonials .sliders {
+.section-clients .sliders {
     width:1000vw;
     height:100%;
 }
-.section-testimonials .slide {
+.section-clients .slide {
     width:100vw;
     height:100%;
     display:inline-block;
 }
-.section-testimonials .slidearea {
+.section-clients .slidearea {
     display:flex;
     flex-direction:column;
     height:100%;
@@ -496,22 +496,22 @@ header{
     align-items:center;
 }
 
-.section-testimonials--avatar {
+.section-clients--avatar {
     width:100px;
 }
-.section-testimonials--name {
+.section-clients--name {
     font-weight: bold;
     font-size:16px;
     margin-top:20px;
 }
-.section-testimonials--role {
+.section-clients--role {
     font-size:14px;
 }
-.section-testimonials--quoteimg {
+.section-clients--quoteimg {
     width:20px;
     margin-top:30px;
 }
-.section-testimonials--quote {
+.section-clients--quote {
     margin-top:10px;
     font-size:13px;
     max-width:700px;
@@ -521,7 +521,7 @@ header{
     margin-left:30px;
     margin-right:30px;
 }
-.section-testimonials .sliders-pointers {
+.section-clients .sliders-pointers {
     width:100vw;
     height:20px;
     display:flex;
@@ -529,7 +529,7 @@ header{
     align-items: center;
     margin-top:40px;
 }
-.section-testimonials .pointer {
+.section-clients .pointer {
     width:15px;
     height:15px;
     border:2px solid #B28756;
@@ -538,6 +538,6 @@ header{
     margin-right:5px;
     cursor:pointer;
 }
-.section-testimonials .pointer.active {
+.section-clients .pointer.active {
     background-color:#B28756;
 }
