@@ -1,3 +1,4 @@
+/*INICIO DA ESTILIZAÇÕES GERAIS DA PAGINA*/
 *{
     margin: 0;
     padding: 0;
@@ -150,7 +151,7 @@ header{
     background-color: #b28756;
 }
 
-/*estilização das sections*/
+/*ESTILIZAÇÃO PADRÃO DAS SECTIONS*/
 
 .default{
     padding-top: 50px;
@@ -200,26 +201,11 @@ header{
 
 
 
+/*ESTILIZAÇÃO INDIVIDUAL DE CADA SECTION*/
 
 
+/*****SECTION ABOUT US*****/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*areas específicas*/
-
-/*inicio da estilização do about us*/
 .section-aboutus{
     display: flex;
 }
@@ -242,7 +228,7 @@ header{
     box-shadow: 0px 5px 10px #333;
 }
 
-/*inicio da estilização da section services*/
+/*****SECTION SERVICES******/
 
 .section-services{
     display: flex;
@@ -280,7 +266,8 @@ header{
 }
 
 
-/*Incio da estilização da section projects*/
+/*****SECTION PROJECTS******/
+
 .section-projects{
     display: flex;
     flex-direction: column;
@@ -366,7 +353,7 @@ header{
 }
 
 
-/*incio da estilização da section our team*/
+/*****SECTION OUT TEAM******/
 
 .bg-team{
     background-image: url('/assets/images/bg.jpg');
@@ -471,7 +458,7 @@ header{
     background-color: #b28756;
 }
 
-/*section relatos*/
+/*****SECTION CILENTES RELATO******/
 
 .clients .section-body {
     max-width:initial;
@@ -542,7 +529,7 @@ header{
     background-color:#B28756;
 }
 
-/*section marcas*/
+/*****SECTION COMPAANIES******/
 .section-companies {
     border-top:1px solid #DDD;
     border-bottom:1px solid #DDD;
@@ -557,7 +544,8 @@ header{
 }
 
 
-/*estilização da section price*/
+/*****SECTION PRICE******/
+
 
 .section-price {
     display:flex;
@@ -591,7 +579,7 @@ header{
     font-size:12px;
 }
 
-/*section product premium*/
+/*****SECTION OPÇAO PREMIUM******/
 
 .premium {
     background-color:#FFF !important;
@@ -677,7 +665,7 @@ header{
     background-color:#B28756;
 }
 
-/*section facts*/
+/*****SECTION FACTS******/
 
 .section-facts {
     display:flex;
@@ -707,7 +695,7 @@ header{
     color:#999;
 }
 
-/*section share*/
+/*****SECTION SHARE******/
 
 .section-share {
     display:flex;
@@ -761,6 +749,10 @@ header{
     background-color:#b71c29;
 }
 
+
+/*****SECTION CONTACT******/
+
+
 .section-contact {
     max-width:450px;
     margin:auto;
@@ -788,7 +780,7 @@ header{
     margin-right:20px;
 }
 
-/*section map estilização*/
+/*****SECTION MAPA******/
 
 .section-map {
     background-image:url('../images/mapa.jpg');
